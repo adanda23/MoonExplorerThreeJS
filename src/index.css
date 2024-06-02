@@ -1,0 +1,56 @@
+/* for some reason, the text does not display properly over the three.js canvas as it should, which is why i made
+4 of essentially the same class with different top margin settings */
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	z-index: 100;
+	display:block;
+    color: white;
+    pointer-events: none;
+    padding: 10px;
+}
+
+.info2 {
+    font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 10px;
+	width: 25%;
+	z-index: 100;
+	display:block;
+    color: white;
+    pointer-events: none;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.info3 {
+    font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 10px;
+	width: 25%;
+	z-index: 100;
+	display:block;
+    color: white;
+    pointer-events: none;
+    padding: 10px;
+    margin-top: 125px;
+}
+
+
+.info4 {
+    font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 10px;
+	width: 25%;
+	z-index: 100;
+	display:block;
+    color: white;
+    pointer-events: none;
+    padding: 10px;
+    margin-top: 190px;
+}
+
+
