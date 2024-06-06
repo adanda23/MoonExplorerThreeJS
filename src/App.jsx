@@ -65,7 +65,7 @@ function App() {
     step: 1,
   },
   displacement: {
-    value: 1,
+    value: 3,
     min: 0,
     max: 5,
     step: 0.1,
